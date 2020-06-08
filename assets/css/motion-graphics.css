@@ -1,0 +1,32 @@
+
+
+
+.agile {
+  background-color: #3a3939;
+  height: 100vh;
+  padding-top: 75px;
+  
+}
+
+.agile video {
+  width: 100%;
+  object-fit: cover;
+  padding-top: 50px;
+  
+
+
+}
+
+.agile h3, .agile h4, .agile p {
+  color: white;
+}
+
+.agile h4 {
+  font-size: 18px;
+}
+
+.agile .title:after {
+  background: #6610f2;
+}
+
+
