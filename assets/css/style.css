@@ -414,6 +414,15 @@ font-size: 40px;
 	animation: 50s para infinite linear;
 	}
 
+@media screen and (max-width: 769px) {
+.animated-bg {
+	height: 80vh;
+	}
+}
+
+
+
+
 @keyframes para {
 	100% {
 		background-position: 
