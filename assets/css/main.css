@@ -12275,6 +12275,12 @@ a:hover {
 	background-color: transparent;
 }
 
+@media screen and (max-width: 769px) {
+	.navbar .navbar-brand a.navbar-item {
+		margin: auto;
+		background-color: transparent;
+	}
+}
 .navbar .navbar-brand a.navbar-item:hover {
 	background-color: transparent;
 }
