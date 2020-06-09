@@ -1,5 +1,7 @@
-/* Personal Website - SCSS version 1.1.5 Copyright 2020, Matt Farley www.mattfarley.ca */
 
+html {
+	scroll-behavior: smooth;
+  }
 
 /*! tinyreset.css v0.1.0 | github.com/shankariyerr/tinyreset */
 
