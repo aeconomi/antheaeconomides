@@ -6,6 +6,18 @@
   background-repeat: no-repeat;
   height: 500px;
   }
+
+  @media screen and (max-width: 768px) {
+
+    .hero-body {
+        background-image: none;
+        background-color: #323232;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        }
+  }
   .articles {
     margin: 5rem 0;
     margin-top: -200px;
@@ -7929,6 +7941,7 @@ a.navbar-item:hover {
     }
     .navbar-brand .navbar-item,
     .navbar-tabs .navbar-item {
+        margin: auto;
         align-items: center;
         display: flex
     }
