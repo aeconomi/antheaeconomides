@@ -12402,7 +12402,7 @@ hr {
 
 @media screen and (max-width: 769px) {
 	.hero-foot {
-		padding: 7.5rem 1.5rem;
+		padding: 5rem 1.5rem;
 	}
 }
 
@@ -12525,6 +12525,13 @@ hr {
 h2.skills {
   padding-top: 6rem;
   margin-bottom: -3rem;
+}
+
+@media screen and (max-width: 769px) {
+	h2.skills {
+		padding-top: 2rem;
+		margin-bottom: -3rem;
+	  }
 }
 
 .section.skills .box {
