@@ -7972,13 +7972,6 @@ body.has-navbar-fixed-bottom {
 	background-color: transparent;
 }
 
-@media screen and (max-width: 768px) {
-.navbar-brand a.navbar-item:focus,
-.navbar-brand a.navbar-item:hover {
-	margin: auto;
-	background-color: transparent;
-}
-
 .navbar-tabs {
 	-webkit-overflow-scrolling: touch;
 	max-width: 100vw;
