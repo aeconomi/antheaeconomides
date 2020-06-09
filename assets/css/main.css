@@ -12400,6 +12400,12 @@ hr {
 	padding: 10rem 1.5rem;
 }
 
+@media screen and (max-width: 769px) {
+	.hero-foot {
+		padding: 7.5rem 1.5rem;
+	}
+}
+
 .hero-foot img.is-bottom {
 	margin-bottom: -0.4rem;
 }
