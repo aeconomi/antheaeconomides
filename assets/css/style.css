@@ -131,7 +131,7 @@ section {
   }
   
  .typewriter-text h2 { 
-	 color:#EB385B; 
+	 color:#202020; 
 	 text-decoration: none;}
   
 
@@ -164,7 +164,7 @@ section {
 	margin-right: 10px;
 }
 .button:hover {
-	background: #EB385B;
+	background: #202020;
 	color: #fff;
 	text-decoration: none;
 	-webkit-transition : all linear 300ms;
@@ -289,11 +289,11 @@ font-size: 40px;
   
 .arrow:hover::after {
 	  transform: rotate(45deg);
-	  border-color: #EB385B;
+	  border-color: #202020;
 	  height: 120%;
   }
 .arrow:hover::before {
-	  border-color: #EB385B;
+	  border-color: #202020;
 	  transform: scale(.8);
 	  
   }
@@ -554,7 +554,7 @@ font-size: 40px;
 	opacity: 1;
 	line-height: 51px;
 	margin-bottom: 20px;
-	color: #EB385B;
+	color: #202020;
 	transition: all .9s ease;
 -webkit-transition: all .9s ease;
 }
@@ -769,7 +769,7 @@ font-size: 40px;
 		
 }
 .contact_section a:hover {
-	color: #EB385B;
+	color: #202020;
 		
 }
 .mail, .phone {
@@ -864,8 +864,8 @@ footer {
 }
 
 .go-top:hover, .go-top:focus, .go-down:hover {
-	background: #EB385B;
-	border: 3px solid #EB385B;
+	background: #202020;
+	border: 3px solid #202020;
 	color: white;
 }
 
