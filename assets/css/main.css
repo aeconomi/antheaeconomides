@@ -11206,6 +11206,8 @@ print {
 	background-attachment: fixed;
 }
 
+
+
 .hero.is-white a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
 .hero.is-white strong {
 	color: inherit;
@@ -12474,6 +12476,14 @@ hr {
 	background-attachment: fixed;
 }
 
+
+@media screen and (max-width: 1023px) {
+	.section.is-primary {
+		background-image: url(../images/city-drawing.jpg);
+		background-attachment: scroll;
+	}
+}
+
 .section.is-primary .title {
 	color: #fff;
 }
@@ -12852,16 +12862,14 @@ p.project-description {
 
 .section.call-to-action .title,
 .section.call-to-action p {
-	color: #202020;
+	color: white;
 	margin-bottom: 0;
 }
 
 .section.call-to-action .box {
 	padding: 3.5rem 2rem;
 	margin-top: -9rem;
-	background-color: #d9d9d9;
-	background-image: url(../images/cta-drawing.jpg);
-	background-size: cover;
+	background-color: #202020;
 
 }
 
@@ -12878,7 +12886,7 @@ p.project-description {
 }
 
 .section.call-to-action .box .button.is-outlined.is-rounded.is-medium {
-	color: #202020;
+	color: white;
 	padding: 1.25em 2em;
 	font-weight: 400;
 	border-width: 2px;
