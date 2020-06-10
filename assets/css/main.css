@@ -11206,7 +11206,13 @@ print {
 	background-attachment: fixed;
 }
 
-
+@media screen and (max-width: 1023px) {
+	.hero.is-white {
+		background-image: url(../images/city-drawing-withe.jpg);
+		background-attachment: scroll;
+		background-position:15% 30%;
+	}
+}
 
 .hero.is-white a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
 .hero.is-white strong {
@@ -12481,6 +12487,7 @@ hr {
 	.section.is-primary {
 		background-image: url(../images/city-drawing.jpg);
 		background-attachment: scroll;
+		background-position:15% 30%;
 	}
 }
 
