@@ -12174,9 +12174,21 @@ print {
 }
 
 footer {
-	background-color: #202020;
+	background-image: url(../images/city-drawing.jpg);
+	background-attachment: fixed;
 	color: white;
 }
+
+
+@media screen and (max-width: 1024px) {
+	footer {
+		background-image: url(../images/city-drawing.jpg);
+		background-attachment: scroll;
+		background-position:15% 30%;
+	}
+}
+
+
 
 html {
 	overflow-y: scroll;
@@ -12477,6 +12489,10 @@ hr {
 	padding: 5rem 1.5rem;
 }
 
+.section-has-less-padding {
+	padding: 5rem 1.5rem 2rem 1.5rem;
+}
+
 .section.is-primary {
 	background-image: url(../images/city-drawing.jpg);
 	background-attachment: fixed;
@@ -12640,6 +12656,7 @@ h2.skills {
 
 .projects .project-grid {
 	padding: 2rem 0 4rem;
+	margin-bottom: -9rem;
 }
 
 @media screen and (min-width: 769px) {
@@ -12875,7 +12892,7 @@ p.project-description {
 
 .section.call-to-action .box {
 	padding: 3.5rem 2rem;
-	margin-top: -9rem;
+	margin-bottom: -500px;
 	background-color: #202020;
 
 }
@@ -12939,6 +12956,7 @@ footer .social-icons {
 	}
 }
 
+
 footer .social-icons a.button {
 	background-color: transparent;
 	color: white;
@@ -12990,10 +13008,6 @@ footer .made-by-bulma {
 	margin-top: 0.7rem;
 }
 
-::-webkit-scrollbar {
-	width: 6px;
-	border-left: 1px solid #E6ECF8;
-}
 
 ::-webkit-scrollbar-thumb {
 	background-color: #141c3a;
