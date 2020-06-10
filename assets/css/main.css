@@ -1953,9 +1953,9 @@ fieldset[disabled] .button.is-text {
 
 .button.is-white:hover,
 .button.is-white.is-hovered {
-	background-color: #f9f9f9;
-	border-color: transparent;
-	color: #0a0a0a;
+	background-color: transparent;
+	border-color: white;
+	color: white;
 }
 
 .button.is-white:focus,
@@ -2017,7 +2017,7 @@ fieldset[disabled] .button.is-white.is-inverted {
 .button.is-white.is-outlined.is-focused {
 	background-color: white;
 	border-color: white;
-	color: #0a0a0a;
+	color: black;
 }
 
 .button.is-white.is-outlined.is-loading::after {
@@ -3343,7 +3343,6 @@ fieldset[disabled] .button {
 }
 
 .button.is-rounded {
-	border-radius: 290486px;
 	padding-left: calc(1em + 0.25em);
 	padding-right: calc(1em + 0.25em);
 }
@@ -3709,6 +3708,16 @@ fieldset[disabled] .button {
 	justify-content: center;
 	height: 2.5rem;
 	width: 2.5rem;
+}
+
+.icon-is-wide {
+	-webkit-box-align: center;
+	align-items: center;
+	display: -webkit-inline-box;
+	display: inline-flex;
+	-webkit-box-pack: center;
+	justify-content: center;
+	
 }
 
 .icon.is-small {
@@ -12177,6 +12186,8 @@ footer {
 	background-image: url(../images/city-drawing.jpg);
 	background-attachment: fixed;
 	color: white;
+	position: relative;
+	z-index: 1;
 }
 
 
@@ -12894,7 +12905,8 @@ p.project-description {
 	padding: 3.5rem 2rem;
 	margin-bottom: -500px;
 	background-color: #202020;
-
+	position: relative;
+	z-index: 2;
 }
 
 @media screen and (min-width: 769px) {
