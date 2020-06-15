@@ -43,9 +43,10 @@
   .media-content {
     margin-top: 3rem;
   }
-  .article, .promo-block {
+  .article, .promo-block, .project-block {
     margin-top: 6rem;
   }
+
   div.column.is-8:first-child {
     padding-top: 0;
     margin-top: 0;
@@ -431,11 +432,18 @@ h4,
 h5,
 h6 {
     font-size: 100%;
-    font-weight: 400
+    font-weight: 600;
+    margin-bottom: .5em;
 }
 
 ul {
     list-style: none
+}
+
+h3.script {
+font-family: 'Permanent Marker', cursive;
+font-size: 36px;
+color: black;
 }
 
 button,
@@ -510,14 +518,14 @@ button,
 input,
 select,
 textarea {
-    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family:'Montserrat', sans-serif;
 }
 
 code,
 pre {
     -moz-osx-font-smoothing: auto;
     -webkit-font-smoothing: auto;
-    font-family: monospace
+    font-family:'Montserrat', sans-serif;
 }
 
 body {
@@ -652,7 +660,7 @@ table th {
 }
 
 .is-size-5 {
-    font-size: 1.25rem !important
+    font-size: 1.15rem !important
 }
 
 .is-size-6 {
@@ -1283,23 +1291,23 @@ a.has-text-danger:hover {
 }
 
 .is-family-primary {
-    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important
+    font-family:'Montserrat', sans-serif;
 }
 
 .is-family-secondary {
-    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important
+    font-family:'Montserrat', sans-serif;
 }
 
 .is-family-sans-serif {
-    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important
+    font-family:'Montserrat', sans-serif;
 }
 
 .is-family-monospace {
-    font-family: monospace !important
+    font-family:'Montserrat', sans-serif;
 }
 
 .is-family-code {
-    font-family: monospace !important
+    font-family:'Montserrat', sans-serif;
 }
 
 .is-block {
@@ -6356,7 +6364,7 @@ print {
 
 .card-content {
     background-color: transparent;
-    padding: 1.5rem
+    padding: 2.5rem
 }
 
 .card-footer {
@@ -8767,7 +8775,7 @@ label.panel-block:hover {
     flex-basis: 0;
     flex-grow: 1;
     flex-shrink: 1;
-    padding: .75rem
+    padding: 1.75rem
 }
 
 .columns.is-mobile>.column.is-narrow {
@@ -10018,7 +10026,6 @@ print {
 
 .columns:last-child {
     margin-bottom: .75rem;
-    padding: 20px;
 }
 
 .columns:not(:last-child) {
@@ -11683,9 +11690,87 @@ print {
     padding: 3rem 1.5rem 6rem
 }
   
-
+/* Custom CSS */
+.project-block {
+    margin-top: 6rem;
+  }
  
-Do you like it? Share it!
+/*---------- 11. FOOTER STYLES ----------*/
+footer {
+	padding: 20px 0px;
+}
+.footer_info {
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	flex-wrap:wrap;
+	align-items: flex-end;
+	padding: 20px;
+	justify-content:space-between;
+}
+.footer_info > div {
+	width: 33.333%;
+}
+.foo_logo h3 {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+	color: white;
+}
+.social ul {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	display: table;
+	width: auto;
+}
+.social ul li {
+	display: inline-block;
+	margin: 0px 10px;
+}
+.social ul li a {
+	color:white;
+	font-size: 18px;
+}
+.social ul li a:hover {
+	color: #333;
+}
+
+@media screen and (max-width: 768px) {
+	.social {
+		display: none;
+	}
+}
+.copyright {
+	text-align: right;
+}
+.copyright p {
+	margin: 0;
+}
+
+
+footer {
+	background-image: url(../images/city-drawing.jpg);
+	background-attachment: fixed;
+	color: white;
+    position: relative;
+}
+
+
+@media screen and (max-width: 768px) {
+	footer {
+		background-image: url(../images/city-drawing.jpg);
+		background-attachment: scroll;
+		background-position:75% 30%;
+    }
     
-Image Compressor | Compress Video Files | Online PDF Converter
-© 2018 Unminified.com | Privacy
+    footer img {
+        padding-bottom: 1rem;
+        margin: auto;
+    }
+    
+    .copyright {
+        display: none;
+    }
+
+}
