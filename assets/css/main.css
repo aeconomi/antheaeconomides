@@ -9060,6 +9060,7 @@ label.panel-block:hover {
 	padding: 0.75rem;
 }
 
+
 .columns.is-mobile>.column.is-narrow {
 	-webkit-box-flex: 0;
 	flex: none;
@@ -13490,6 +13491,7 @@ input[name="carousel"] {
 .grecaptcha-badge {
 	display: none;
 }
+
 
 
 /*# sourceMappingURL=main.css.map */
