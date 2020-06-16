@@ -20,6 +20,26 @@
         }
   }
 
+
+  .kanban{
+    background-image: url(../images/kanban.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 70%;
+    height: 500px;
+    }
+  
+    @media screen and (max-width: 768px) {
+      .kanban {
+          height: 300px;
+          }
+    }
+  
+
+
+
+
   .transformation-split {
     background-image: url(../images/transformation-hero-3.png);
     background-position: center;
@@ -31,7 +51,7 @@
   
     @media screen and (max-width: 768px) {
       .transformation-split {
-          height: auto;
+          height: 300px;
           }
     }
   
@@ -11715,6 +11735,29 @@ print {
     margin-top: 6rem;
   }
  
+  .grey-block {
+    background-color: #E4E4E4;
+  }
+
+h3.img-desc {
+    padding-top: 2rem;
+}
+
+p.p-desc {
+    padding-right: 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+	
+.image-description {
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+}
+
+
+
 /*---------- 11. FOOTER STYLES ----------*/
 footer {
 	padding: 20px 0px;
