@@ -152,12 +152,18 @@
                 }
                 /* New Containers */
                 .content-container {
-                max-width: 100%;
+                max-width: 80%;
                 margin: auto;
                 font-family: "Ride",Muli,Helvetica,Arial,sans-serif;
+                box-shadow: 0 3px 6px rgb(223,225,229, 0.5);
+                }
+                @media only screen and (max-width: 1000px) {
+                .content-container {
+                max-width: 100%;
+                }
                 }
                 .text-container {
-                max-width: 1200px;
+                max-width: 1000px;
                 margin: auto;
                 }
                 .text-container-two {
@@ -223,10 +229,10 @@
                 padding: 10px;
                 }
                 .bread-crumbs p {
-                max-width: 1200px;
+                max-width: 1000px;
                 margin: auto;
                 font-size: 12px;
-                padding-top: 10px;
+                padding-top: 15px;
                 padding-bottom: 15px;
                 }
                 /* Parallax */
@@ -969,6 +975,8 @@
                 display: flex;
                 flex-wrap: wrap;
                 flex-flow: flex-start;
+                max-width: 1000px;
+                margin: auto;
                 }
                 .news-cards {
                 border: 1px solid #D7D8DB;
