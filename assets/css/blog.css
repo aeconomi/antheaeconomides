@@ -544,6 +544,7 @@ h6 {
     font-size: 100%;
     font-weight: 600;
     margin-bottom: .5em;
+    color: black;
 }
 
 ul {
@@ -11836,7 +11837,8 @@ print {
   } 
 }
   .grey-block {
-    background-color: #E4E4E4;
+    background-color: #F2F2F2;
+    padding: 100px;
   }
 
 h3.img-desc {
@@ -11847,15 +11849,16 @@ p.p-desc {
     padding-right: 2rem;
 }
 
-ul {
-    font-family:'Montserrat', sans-serif;
-  font-size: 1.15rem;
-}
+
 
 ul.bullets {
     list-style-type: circle;
     margin-left: 45px;
   }
+
+ol.bullets {
+    margin-left: 45px;
+}
   
 
 @media screen and (max-width: 768px) {
