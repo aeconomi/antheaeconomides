@@ -11838,11 +11838,12 @@ print {
 }
   .grey-block {
     background-color: #F2F2F2;
+    padding: 3%;
 
   }
   .grey-block-padded {
     background-color: #F2F2F2;
-    padding: 10%;
+    padding: 7% 5%;
     
   }
 
