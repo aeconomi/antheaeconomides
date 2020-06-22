@@ -1260,7 +1260,7 @@ a.has-text-dark:hover {
 }
 
 .has-text-primary {
-    color: #EB385B !important
+    color:  #6610f2 !important
 }
 
 a.has-text-primary:focus,
@@ -1269,7 +1269,7 @@ a.has-text-primary:hover {
 }
 
 .has-background-primary {
-    background-color: #EB385B !important
+    background-color:  #6610f2 !important
 }
 
 .has-text-link {
@@ -2497,7 +2497,7 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
 }
 
 .button.is-primary {
-    background-color: #EB385B;
+    background-color:  #6610f2;
     border-color: transparent;
     color: #fff
 }
@@ -2529,14 +2529,14 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
 
 .button.is-primary[disabled],
 fieldset[disabled] .button.is-primary {
-    background-color: #EB385B;
+    background-color:  #6610f2;
     border-color: transparent;
     box-shadow: none
 }
 
 .button.is-primary.is-inverted {
     background-color: #fff;
-    color: #EB385B
+    color:  #6610f2
 }
 
 .button.is-primary.is-inverted.is-hovered,
@@ -2549,7 +2549,7 @@ fieldset[disabled] .button.is-primary.is-inverted {
     background-color: #fff;
     border-color: transparent;
     box-shadow: none;
-    color: #EB385B
+    color:  #6610f2
 }
 
 .button.is-primary.is-loading::after {
@@ -2566,13 +2566,13 @@ fieldset[disabled] .button.is-primary.is-inverted {
 .button.is-primary.is-outlined.is-hovered,
 .button.is-primary.is-outlined:focus,
 .button.is-primary.is-outlined:hover {
-    background-color: #EB385B;
-    border-color: #EB385B;
+    background-color:  #6610f2;
+    border-color:  #6610f2;
     color: #fff
 }
 
 .button.is-primary.is-outlined.is-loading::after {
-    border-color: transparent transparent #EB385B #EB385B !important
+    border-color: transparent transparent  #6610f2  #6610f2 !important
 }
 
 .button.is-primary.is-outlined.is-loading.is-focused::after,
@@ -2585,9 +2585,9 @@ fieldset[disabled] .button.is-primary.is-inverted {
 .button.is-primary.is-outlined[disabled],
 fieldset[disabled] .button.is-primary.is-outlined {
     background-color: transparent;
-    border-color: #EB385B;
+    border-color:  #6610f2;
     box-shadow: none;
-    color: #EB385B
+    color:  #6610f2
 }
 
 .button.is-primary.is-inverted.is-outlined {
@@ -2601,14 +2601,14 @@ fieldset[disabled] .button.is-primary.is-outlined {
 .button.is-primary.is-inverted.is-outlined:focus,
 .button.is-primary.is-inverted.is-outlined:hover {
     background-color: #fff;
-    color: #EB385B
+    color:  #6610f2
 }
 
 .button.is-primary.is-inverted.is-outlined.is-loading.is-focused::after,
 .button.is-primary.is-inverted.is-outlined.is-loading.is-hovered::after,
 .button.is-primary.is-inverted.is-outlined.is-loading:focus::after,
 .button.is-primary.is-inverted.is-outlined.is-loading:hover::after {
-    border-color: transparent transparent #EB385B #EB385B !important
+    border-color: transparent transparent  #6610f2  #6610f2 !important
 }
 
 .button.is-primary.is-inverted.is-outlined[disabled],
@@ -3981,7 +3981,7 @@ fieldset[disabled] .button {
 }
 
 .notification.is-primary {
-    background-color: #EB385B;
+    background-color:  #6610f2;
     color: #fff
 }
 
@@ -4134,19 +4134,19 @@ fieldset[disabled] .button {
 }
 
 .progress.is-primary::-webkit-progress-value {
-    background-color: #EB385B
+    background-color:  #6610f2
 }
 
 .progress.is-primary::-moz-progress-bar {
-    background-color: #EB385B
+    background-color:  #6610f2
 }
 
 .progress.is-primary::-ms-fill {
-    background-color: #EB385B
+    background-color:  #6610f2
 }
 
 .progress.is-primary:indeterminate {
-    background-image: linear-gradient(to right, #EB385B 30%, #ededed 30%)
+    background-image: linear-gradient(to right,  #6610f2 30%, #ededed 30%)
 }
 
 .progress.is-link::-webkit-progress-value {
@@ -4326,8 +4326,8 @@ fieldset[disabled] .button {
 
 .table td.is-primary,
 .table th.is-primary {
-    background-color: #EB385B;
-    border-color: #EB385B;
+    background-color:  #6610f2;
+    border-color:  #6610f2;
     color: #fff
 }
 
@@ -4374,7 +4374,7 @@ fieldset[disabled] .button {
 
 .table td.is-selected,
 .table th.is-selected {
-    background-color: #EB385B;
+    background-color:  #6610f2;
     color: #fff
 }
 
@@ -4394,7 +4394,7 @@ fieldset[disabled] .button {
 }
 
 .table tr.is-selected {
-    background-color: #EB385B;
+    background-color:  #6610f2;
     color: #fff
 }
 
@@ -4588,7 +4588,7 @@ fieldset[disabled] .button {
 }
 
 .tag:not(body).is-primary {
-    background-color: #EB385B;
+    background-color:  #6610f2;
     color: #fff
 }
 
@@ -5063,7 +5063,7 @@ fieldset[disabled] .textarea:-ms-input-placeholder {
 
 .is-primary.input,
 .is-primary.textarea {
-    border-color: #EB385B
+    border-color:  #6610f2
 }
 
 .is-primary.input:active,
@@ -5387,11 +5387,11 @@ fieldset[disabled] .select select:hover {
 }
 
 .select.is-primary:not(:hover)::after {
-    border-color: #EB385B
+    border-color:  #6610f2
 }
 
 .select.is-primary select {
-    border-color: #EB385B
+    border-color:  #6610f2
 }
 
 .select.is-primary select.is-hovered,
@@ -5667,7 +5667,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .file.is-primary .file-cta {
-    background-color: #EB385B;
+    background-color:  #6610f2;
     border-color: transparent;
     color: #fff
 }
@@ -6059,7 +6059,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .help.is-primary {
-    color: #EB385B
+    color:  #6610f2
 }
 
 .help.is-link {
@@ -6974,12 +6974,12 @@ a.list-item {
 }
 
 .message.is-primary .message-header {
-    background-color: #EB385B;
+    background-color:  #6610f2;
     color: #fff
 }
 
 .message.is-primary .message-body {
-    border-color: #EB385B;
+    border-color:  #6610f2;
     color: #00947e
 }
 
@@ -7466,7 +7466,7 @@ print {
 }
 
 .navbar.is-primary {
-    background-color: #EB385B;
+    background-color:  #6610f2;
     color: #fff
 }
 
@@ -7526,7 +7526,7 @@ print {
         color: #fff
     }
     .navbar.is-primary .navbar-dropdown a.navbar-item.is-active {
-        background-color: #EB385B;
+        background-color:  #6610f2;
         color: #fff
     }
 }
@@ -8565,16 +8565,16 @@ print {
 }
 
 .panel.is-primary .panel-heading {
-    background-color: #EB385B;
+    background-color:  #6610f2;
     color: #fff
 }
 
 .panel.is-primary .panel-tabs a.is-active {
-    border-bottom-color: #EB385B
+    border-bottom-color:  #6610f2
 }
 
 .panel.is-primary .panel-block.is-active .panel-icon {
-    color: #EB385B
+    color:  #6610f2
 }
 
 .panel.is-link .panel-heading {
@@ -11220,7 +11220,7 @@ print {
 }
 
 .hero.is-primary {
-    background-color: #EB385B;
+    background-color:  #6610f2;
     color: #fff
 }
 
@@ -11244,7 +11244,7 @@ print {
 
 @media screen and (max-width:1023px) {
     .hero.is-primary .navbar-menu {
-        background-color: #EB385B
+        background-color:  #6610f2
     }
 }
 
@@ -11290,16 +11290,16 @@ print {
 .hero.is-primary .tabs.is-toggle li.is-active a:hover {
     background-color: #fff;
     border-color: #fff;
-    color: #EB385B
+    color:  #6610f2
 }
 
 .hero.is-primary.is-bold {
-    background-image: linear-gradient(141deg, #009e6c 0, #EB385B 71%, #00e7eb 100%)
+    background-image: linear-gradient(141deg, #009e6c 0,  #6610f2 71%, #00e7eb 100%)
 }
 
 @media screen and (max-width:768px) {
     .hero.is-primary.is-bold .navbar-menu {
-        background-image: linear-gradient(141deg, #009e6c 0, #EB385B 71%, #00e7eb 100%)
+        background-image: linear-gradient(141deg, #009e6c 0,  #6610f2 71%, #00e7eb 100%)
     }
 }
 
