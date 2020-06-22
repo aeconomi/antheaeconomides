@@ -384,7 +384,7 @@ table {
 	-webkit-box-align: center;
 	align-items: center;
 	border: 1px solid transparent;
-	border-radius: 4px;
+
 	box-shadow: none;
 	display: -webkit-inline-box;
 	display: inline-flex;
@@ -590,7 +590,7 @@ pre {
 body {
 	color: #141c3a;
 	font-size: 1em;
-	font-weight: 300;
+	font-weight: 200;
 	line-height: 1.5;
 }
 
@@ -12772,7 +12772,11 @@ h2.project-description {
   padding-left: 1rem;
   padding-top: 1rem;
   text-align: left;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 1.25rem;
+color: black;
+text-transform: uppercase;
+letter-spacing: 1px;
 }
 
 p.project-description {
