@@ -545,28 +545,41 @@ h6 {
     font-weight: 600;
     margin-bottom: .5em;
     color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 ul {
     list-style: none
 }
 
+
+h1.script {
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.75rem;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    }
+
 h3.script {
-font-family: 'Permanent Marker', cursive;
-font-size: 2.25rem;
+font-family:'Montserrat', sans-serif;
+font-size: 1.25rem;
 color: black;
+text-transform: uppercase;
+letter-spacing: 1px;
 }
 
 
 @media screen and (max-width:1023px) {
 h3.script {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 1.75rem;
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.25rem;
     color: black;
     }
 }
 p.script {
-    font-family: 'Permanent Marker', cursive;
+    font-family:'Montserrat', sans-serif;
     font-size: 24px;
     color: black;
     font-weight: 100;
@@ -657,7 +670,7 @@ pre {
 body {
     color: #4a4a4a;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 1.5
 }
 
@@ -9314,7 +9327,7 @@ print {
     .column.is-one-quarter,
     .column.is-one-quarter-tablet {
         flex: none;
-        width: 25%
+        width: 28%
     }
     .column.is-one-fifth,
     .column.is-one-fifth-tablet {
@@ -11855,17 +11868,57 @@ p.p-desc {
     padding-right: 2rem;
 }
 
+p.numbers {
+    border-bottom: 1px solid #e0e0e0;
+    padding-top: 0.5555555555555556rem;
+    padding-right: 1.1111111111111112rem;
+    padding-bottom: 0.25rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    text-transform: uppercase;
+}
 
+p.numbers-desc {
+    line-height: 1.2;
+    margin: 8px;
+}
+
+.circle {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        border: 3px solid #e0e0e0;
+        color: #4a4a4a;
+        text-align: center;
+        padding: 5px;
+        font: 1.25rem 'Montserrat', sans-serif;
+        display: inline-block;
+        margin-right: 15px;
+  }
 
 ul.bullets {
     list-style-type: circle;
     margin-left: 45px;
+    
   }
-
+  ul.questions {
+   
+    margin-left: 25px;
+  }
+ 
 ol.bullets {
     margin-left: 45px;
+ 
+   
 }
   
+ul.questions li {
+    margin-bottom: 10px;
+}
+
+
+
+
 
 @media screen and (max-width: 768px) {
 	
