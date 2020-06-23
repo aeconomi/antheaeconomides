@@ -2450,6 +2450,21 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
 	color: #fff;
 }
 
+.button.is-secondary {
+	background-color: #202020;
+	border-color: #fff;
+	color: #fff;
+	width: 200px;
+	margin: auto;
+}
+
+.button.is-secondary:hover,
+.button.is-secondary.is-hovered {
+	background-color: #fff;
+	border-color: #fff;
+	color: black;
+}
+
 .button.is-primary:focus,
 .button.is-primary.is-focused {
 	border-color: transparent;
