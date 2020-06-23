@@ -2566,8 +2566,8 @@ fieldset[disabled] .button.is-primary.is-inverted {
 .button.is-primary.is-outlined.is-hovered,
 .button.is-primary.is-outlined:focus,
 .button.is-primary.is-outlined:hover {
-    background-color:  #6610f2;
-    border-color:  #6610f2;
+    background-color:  #202020;
+    border-color:  #202020;
     color: #fff
 }
 
