@@ -507,6 +507,11 @@ h6 {
 	font-size: 100%;
 	font-weight: normal;
 }
+@media screen and (min-width: 1000px) {
+h1.contact-cta {
+	margin-top: 20px;
+}
+}
 
 ul {
 	list-style: none;
@@ -1947,7 +1952,7 @@ fieldset[disabled] .button.is-text {
 
 .button.is-white {
 	background-color: white;
-	border-color: transparent;
+	border-color: white;
 	color: #0a0a0a;
 }
 
@@ -1961,7 +1966,7 @@ fieldset[disabled] .button.is-text {
 .button.is-white:focus,
 .button.is-white.is-focused {
 	border-color: transparent;
-	color: #0a0a0a;
+	color: white;
 }
 
 .button.is-white:focus:not(:active),
@@ -1971,8 +1976,8 @@ fieldset[disabled] .button.is-text {
 
 .button.is-white:active,
 .button.is-white.is-active {
-	background-color: #f2f2f2;
-	border-color: transparent;
+	background-color: white;
+	border-color: white;
 	color: #0a0a0a;
 }
 
