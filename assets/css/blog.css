@@ -31,15 +31,9 @@
     }
   
 
-    .legacy-res-flow {
-        background-image: url(../images/legacy-screens.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        max-width: 100%;
-        height: auto;
-        }
+  
       
+
   
 
 
@@ -11900,7 +11894,6 @@ p.numbers {
     padding-bottom: 0.25rem;
     margin-bottom: 1rem;
     display: inline-block;
-    text-transform: uppercase;
     font-weight: 400;
 }
 
