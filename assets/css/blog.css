@@ -63,7 +63,7 @@
 
 
   .mobile-app {
-    background-image: url(../images/hertz-app-hero.png);
+    background-image: url(../images/hertz-app-hero-2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -11870,13 +11870,43 @@ print {
     background-color: #F2F2F2;
     padding: 3%;
     max-width: 100%;
-
+    margin: 5rem 0;
+    margin-top: -200px;
   }
+
+  @media screen and (max-width:768px) {
+    .grey-block {
+        background-color: #FFF;
+        padding: 0;
+        max-width: 100%;
+        margin: 0 0;
+        margin-top: 0px;
+      }
+  }
+
   .grey-block-padded {
     background-color: #F2F2F2;
     padding: 7% 5%;
     max-width: 100%;
     
+  }
+
+
+  .yellow-block {
+    background-color: #f6db6e;
+    padding: 3%;
+    max-width: 100%;
+    margin: 5rem 0;
+  }
+
+  @media screen and (max-width:768px) {
+    .yellow-block {
+        background-color: #f6db6e;
+        padding: 0;
+        max-width: 100%;
+        margin: 0 0;
+        margin-top: 0px;
+      }
   }
 
 h3.img-desc {
@@ -11888,13 +11918,18 @@ p.p-desc {
 }
 
 p.numbers {
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #F3C92E;
     padding-top: 0.5555555555555556rem;
     padding-right: 1.1111111111111112rem;
     padding-bottom: 0.25rem;
     margin-bottom: 1rem;
     display: inline-block;
     font-weight: 400;
+}
+
+
+p.numbers.blue {
+    border-bottom: 1px solid #e6f2fd;
 }
 
 p.numbers-desc {
@@ -11906,7 +11941,7 @@ p.numbers-desc {
         border-radius: 50%;
         width: 40px;
         height: 40px;
-        border: 3px solid #e0e0e0;
+        border: 3px solid #F3C92E;
         color: white;
         text-align: center;
         padding: 5px;
@@ -11914,6 +11949,12 @@ p.numbers-desc {
         display: inline-block;
         margin-right: 15px;
   }
+
+ 
+.circle.blue {
+  
+    border: 3px solid #e6f2fd;
+} 
 
 ul.bullets {
     list-style-type: circle;
@@ -11933,6 +11974,11 @@ ol.bullets {
   
 ul.questions li {
     margin-bottom: 10px;
+}
+
+
+.results > div {
+    padding: 0px;
 }
 
 /* LINK HOVER */
@@ -11973,6 +12019,41 @@ span.marker:hover {
 }
 }
 
+
+
+
+
+.between {
+    border-top: 2px dashed #f2f2f2;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.child2
+{
+    -moz-box-flex:5.0; /* Firefox */
+    -webkit-box-flex:5.0; /* Safari and Chrome */
+    -ms-flex:9.0; /* Internet Explorer 10 */
+    box-flex:9.0;
+}
+
+.content-box {
+    border: #ECECF0 solid 1px; border-radius: 10px; padding: 25px;  margin-bottom: -30px; background-color: white; box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02); 
+}
+
+.content-box.blue {
+     background-color: white; color: #4a4a4a;
+}
+
+
+.small-round-box {
+    border: #ECECF0 solid 1px; border-radius: 10px; padding: 25px;  margin-bottom: -30px;
+}
+
+
+
+
+/* Slide Up */
 
 
 /*---------- 11. FOOTER STYLES ----------*/
