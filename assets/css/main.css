@@ -11234,6 +11234,7 @@ print {
 	color: #0a0a0a;
 	background-image: url(../images/city-drawing-withe.jpg);
 	background-attachment: fixed;
+	background-position: 0 0;
 }
 
 @media screen and (max-width: 1023px) {
@@ -12528,6 +12529,7 @@ hr {
 .section.is-primary {
 	background-image: url(../images/city-drawing.jpg);
 	background-attachment: fixed;
+	background-position: 0 0;
 }
 
 
