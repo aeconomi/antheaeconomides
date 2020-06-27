@@ -868,7 +868,7 @@ footer {
     top: 90%;
     visibility: visible;
 	z-index: 1000;
-	box-shadow: 0 0 6px rgb(117, 33, 206);
+
 }
 
 .go-top:hover, .go-top:focus, .go-down:hover {
