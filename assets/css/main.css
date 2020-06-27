@@ -13522,4 +13522,63 @@ input[name="carousel"] {
 
 
 
+
+  /*Neon*/
+
+ 
+  
+  h2.neon {
+	font-family: "Vibur", cursive;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+  }
+  
+  h2.neon {
+	color: #fff;
+	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
+	animation: neon1 1.5s ease-in-out infinite alternate;
+  }
+  
+
+  
+ 
+
+  /*glow for webkit*/
+  
+  @-webkit-keyframes neon1 {
+	from {
+	  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+	}
+	to {
+	  text-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px #FF1177, 0 0 14px #FF1177, 0 0 20px #FF1177, 0 0 25px #FF1177, 0 0 37px #FF1177;
+	}
+  }
+  
+  
+  /*glow for mozilla*/
+  
+  @-moz-keyframes neon1 {
+	from {
+		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+	}
+	to {
+	 text-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px #FF1177, 0 0 14px #FF1177, 0 0 20px #FF1177, 0 0 25px #FF1177, 0 0 37px #FF1177;text-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px #FF1177, 0 0 14px #FF1177, 0 0 20px #FF1177, 0 0 25px #FF1177, 0 0 37px #FF1177;
+	}
+  }
+  
+  
+  /*glow*/
+  
+  @keyframes neon1 {
+	from {
+		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+	}
+	to {
+		text-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px #FF1177, 0 0 14px #FF1177, 0 0 20px #FF1177, 0 0 25px #FF1177, 0 0 37px #FF1177;
+	}
+  }
+  
+ 
 /*# sourceMappingURL=main.css.map */
