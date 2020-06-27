@@ -2521,6 +2521,7 @@ fieldset[disabled] .button.is-primary.is-inverted {
 	background-color: transparent;
 	border-color: #000;
 	color: #000;
+	box-shadow: 0 0 6px rgb(117, 33, 206);
 }
 
 
@@ -2532,6 +2533,8 @@ fieldset[disabled] .button.is-primary.is-inverted {
 	background-color: #202020;
 	border-color: #202020;
 	color: #fff;
+	
+
 }
 
 .button.is-primary.is-outlined.is-loading::after {
@@ -12391,7 +12394,7 @@ a:hover {
 }
 
 .navbar .navbar-menu a.button.is-primary.is-outlined {
-	border-width: 3px;
+	border-width: 2px;
 	font-weight: 400;
 	font-size: 18px;
 	padding: 1.2rem;
@@ -13523,62 +13526,70 @@ input[name="carousel"] {
 
 
 
-  /*Neon*/
+/* LINK HOVER */
+span.marker{
+	-webkit-transition: all .15s ease-out;
+	-moz-transition: all .15s ease-out;
+	-ms-transition: all .15s ease-out;
+	-o-transition: all .15s ease-out;
+	transition: all .15s ease-out;
+	text-decoration: none;
+  background-image: -webkit-linear-gradient(transparent 60%, #6610f2 0%);
+  background-image: -moz-linear-gradient(transparent 60%, #6610f2 0%);
+  background-image: -o-linear-gradient(transparent 60%, #6610f2 0%);
+  background-image: linear-gradient(transparent 60%, #6610f2 0%);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-bottom: 1px solid #6610f2;
+  }
 
+
+  /* Neon */
+
+  @font-face {
+	font-family: neon;
+src: url("../fonts/neon-one/Neoneon-3zaD6.otf") format("opentype")
+  }
+  
+  .neon-wrapper {
+	box-shadow:
+	0 0 0.1vw  0.4vw #d6c5fc,   
+	0 0 0.4vw  0.6vw #a580f9, 
+	0 0   4vw  0.4vw #7c41d4,
+	inset 0 0 1.5vw  0.4vw #4808c7,
+	inset 0 0 0.4vw  0.2vw #a580f9,
+	inset 0 0 0.5vw  0.2vw #d6c5fc;
+	border-radius: 1.5rem;
+	max-width: 500px;
+	margin: auto;
+  }
+  .neon-text {
+	font-family: neon;
+	font-size: 2rem;
+	color: #d6c5fc;
+	padding: 0 3.5rem 0 3.5rem;
+	text-shadow: 
+	.1vw 0vw .25vw #d6c5fc, .2vw 0vw .25vw #d6c5fc, .4vw 0vw .25vw #d6c5fc, 
+	.1vw 0vw   0vw #a580f9, .2vw 0vw   0vw #a580f9, .4vw 0vw   0vw #a580f9,
+	.1vw 0vw  .1vw #a580f9, .2vw 0vw  .1vw #a580f9, .4vw 0vw  .1vw #7c41d4,
+	.1vw 0vw   2vw #a580f9, .2vw 0vw   2vw #a580f9, .4vw 0vw   2vw #4808c7, 
+	.1vw 0vw   1vw #391889, .2vw 0vw   1vw #391889, .4vw 0vw   5vw #391889, 
+	.1vw 0vw   2vw #391889, .2vw 0vw  10vw #391889, .4vw 0vw  5vw #391889,
+	.1vw 0vw  5vw #391889, .2vw 0vw  15vw #391889, .4vw 0vw  5vw #1f006b;
+  }
+ 
+  .neon-text-2 {
+	font-family: neon;
+	color: #d6c5fc;
+	text-shadow: 
+	.1vw 0vw .25vw #d6c5fc, .2vw 0vw .25vw #d6c5fc, .4vw 0vw .25vw #d6c5fc, 
+	.1vw 0vw   0vw #a580f9, .2vw 0vw   0vw #a580f9, .4vw 0vw   0vw #a580f9,
+	.1vw 0vw  .1vw #a580f9, .2vw 0vw  .1vw #a580f9, .4vw 0vw  .1vw #7c41d4,
+	.1vw 0vw   2vw #a580f9, .2vw 0vw   2vw #a580f9, .4vw 0vw   2vw #4808c7, 
+	.1vw 0vw   1vw #391889, .2vw 0vw   1vw #391889, .4vw 0vw   5vw #391889, 
+	.1vw 0vw   2vw #391889, .2vw 0vw  10vw #391889, .4vw 0vw  5vw #391889,
+	.1vw 0vw  5vw #391889, .2vw 0vw  15vw #391889, .4vw 0vw  5vw #1f006b;
+  }
  
   
-  h2.neon {
-	font-family: "Vibur", cursive;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	transition: all 0.5s;
-  }
-  
-  h2.neon {
-	color: #fff;
-	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
-	animation: neon1 1.5s ease-in-out infinite alternate;
-  }
-  
-
-  
- 
-
-  /*glow for webkit*/
-  
-  @-webkit-keyframes neon1 {
-	from {
-	  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
-	}
-	to {
-	  text-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px #FF1177, 0 0 14px #FF1177, 0 0 20px #FF1177, 0 0 25px #FF1177, 0 0 37px #FF1177;
-	}
-  }
-  
-  
-  /*glow for mozilla*/
-  
-  @-moz-keyframes neon1 {
-	from {
-		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
-	}
-	to {
-	 text-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px #FF1177, 0 0 14px #FF1177, 0 0 20px #FF1177, 0 0 25px #FF1177, 0 0 37px #FF1177;text-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px #FF1177, 0 0 14px #FF1177, 0 0 20px #FF1177, 0 0 25px #FF1177, 0 0 37px #FF1177;
-	}
-  }
-  
-  
-  /*glow*/
-  
-  @keyframes neon1 {
-	from {
-		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
-	}
-	to {
-		text-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px #FF1177, 0 0 14px #FF1177, 0 0 20px #FF1177, 0 0 25px #FF1177, 0 0 37px #FF1177;
-	}
-  }
-  
- 
 /*# sourceMappingURL=main.css.map */
