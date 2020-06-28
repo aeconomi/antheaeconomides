@@ -1,7 +1,7 @@
 
   
   .hero-body {
-  background-image: url(../images/transformation-hero.png);
+  background-image: url(../images/transformation-hero-5.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,15 +21,7 @@
         }
   }
 
-  .transformation-split {
-    background-image: url(../images/transformation-hero-3.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: 500px;
-    }
-  
+
 
   
       
@@ -127,7 +119,7 @@
 
 
   .transformation-split {
-    background-image: url(../images/transformation-hero-3.png);
+    background-image: url(../images/transformation-hero-4.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
