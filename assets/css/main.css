@@ -9561,6 +9561,13 @@ print {
 		flex: none;
 		width: 60%;
 	}
+
+	.column.is-three-fifths-point-five,
+	.column.is-three-fifths-point-five {
+		-webkit-box-flex: 0;
+		flex: none;
+		width: 63%;
+	}
 	.column.is-four-fifths,
 	.column.is-four-fifths-tablet {
 		-webkit-box-flex: 0;
@@ -12435,7 +12442,7 @@ hr {
 }
 
 .box {
-	border-radius: 12px;
+	border-radius: 2px;
 }
 
 .hero {
