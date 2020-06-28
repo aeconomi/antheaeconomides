@@ -12709,7 +12709,7 @@ h2.skills {
 .projects .project-grid figure {
 	position: relative;
 	overflow: hidden;
-	border-radius: 12px;
+	border-radius: 6px;
 }
 
 .projects .project-grid figure img.project-thumb {
