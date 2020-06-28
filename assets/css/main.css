@@ -13548,48 +13548,5 @@ span.marker{
   }
 
 
-  /* Neon */
-
-  @font-face {
-	font-family: neon;
-	src: url("../fonts/hello-denver-display/hellodenverdisplaybold_v1.6.eot");
-src: url("../fonts/hello-denver-display/hellodenverdisplaybold_v1.6.woff") format("woff"),
-url("../fonts/hello-denver-display/HELLODENVERDISPLAYBOLD_v1.6.otf") format("opentype"),
-url("../fonts/hello-denver-display/hellodenverdisplayregular_v1.6.svg") format("svg");
-  }
-  
-  .neon-wrapper {
-	box-shadow:
-	0 0 0.1vw  0.4vw #d6c5fc,   
-	0 0 0.4vw  0.6vw #a580f9, 
-	0 0   4vw  0.4vw #7c41d4,
-	inset 0 0 1.5vw  0.4vw #4808c7,
-	inset 0 0 0.4vw  0.2vw #a580f9,
-	inset 0 0 0.5vw  0.2vw #d6c5fc;
-	border-radius: 1.5rem;
-	max-width: 500px;
-	margin: auto;
-  }
-  .neon-text {
-	font-family: neon;
-	font-size: 14rem;
-	color: #ffd8d8;
-	padding: 0 3.5rem 0 3.5rem;
-	text-shadow: 
-	.1vw 0vw .25vw #d6c5fc, .2vw 0vw .25vw #d6c5fc, .4vw 0vw .25vw #d6c5fc, 
-	.1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #a580f9,
-	.1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #7c41d4,
-	.1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #4808c7, 
-	.1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #391889, 
-	.1vw 0vw   2vw #e50b0b, .2vw 0vw  10vw #e50b0b, .4vw 0vw  5vw #391889,
-	.1vw 0vw  5vw #e50b0b, .2vw 0vw  15vw #e50b0b, .4vw 0vw  5vw #1f006b;
-  }
- 
-
-
-
-
-
-  
   
 /*# sourceMappingURL=main.css.map */
