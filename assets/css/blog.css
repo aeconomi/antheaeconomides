@@ -678,7 +678,7 @@ pre {
 body {
     color: #4a4a4a;
     font-size: 1em;
-    font-weight: 200;
+    font-weight: 350;
     line-height: 1.5
 }
 
@@ -11921,7 +11921,7 @@ p.numbers {
 
 
 p.numbers.blue {
-    border-bottom: 1px solid #e6f2fd;
+    border-bottom: 1px solid #3c3f58;
 }
 
 p.numbers-desc {
@@ -11945,7 +11945,7 @@ p.numbers-desc {
  
 .circle.blue {
   
-    border: 3px solid #e6f2fd;
+    border: 3px solid #3c3f58;
 } 
 
 ul.bullets {

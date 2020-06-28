@@ -595,7 +595,7 @@ pre {
 body {
 	color: #141c3a;
 	font-size: 1em;
-	font-weight: 200;
+	font-weight: 350;
 	line-height: 1.5;
 }
 
@@ -4776,7 +4776,7 @@ a.tag:hover {
 .subtitle {
 	color: #141c3a;
 	font-size: 1.25rem;
-	font-weight: 300;
+	font-weight: 350;
 	line-height: 1.25;
 }
 
@@ -12273,7 +12273,7 @@ h6 {
 
 .subtitle {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
+	font-weight: 350;
 	line-height: 1.5;
 }
 
