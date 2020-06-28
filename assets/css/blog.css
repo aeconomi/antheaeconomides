@@ -12,7 +12,7 @@
   @media screen and (max-width: 768px) {
 
     .hero-body {
-        background-image: none;
+        background-image: url(../images/transformation-5.jpg);
         background-color: #323232;
         background-position: center;
         background-size: cover;
@@ -41,7 +41,7 @@
     @media screen and (max-width: 768px) {
   
         .csr-hero {
-          background-image: none;
+            background-image: url(../images/csr-2.jpg);
           background-color: #323232;
           background-position: center;
           background-size: cover;
@@ -66,12 +66,12 @@
     @media screen and (max-width: 768px) {
   
       .mobile-app {
-          background-image: none;
+        background-image: url(../images/hertz-mobile-app-3.jpg);
           background-color: #323232;
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
-          height: 200px;
+          height: 300px;
           }
     }
  .bmw-hero {
@@ -86,7 +86,7 @@
         @media screen and (max-width: 768px) {
       
           .bmw-hero {
-              background-image: none;
+            background-image: url(../images/bmw-2.jpg);
               background-color: #323232;
               background-position: center;
               background-size: cover;
@@ -140,6 +140,14 @@
     margin: 5rem 0;
     margin-top: -200px;
   }
+
+  @media screen and (max-width: 768px) {
+    .articles {
+        margin: 1rem 0;
+      }
+  }
+
+
   .articles .content p {
       line-height: 1.9;
       margin: 15px 0;
@@ -163,6 +171,12 @@
   }
   .article, .promo-block {
     margin-top: 6rem;
+  }
+
+  @media screen and (max-width:768px) {
+    .article, .promo-block {
+        margin-top: 1rem;
+      }
   }
 
   div.column.is-8:first-child {
@@ -569,6 +583,14 @@ h1.script {
     text-transform: uppercase;
     letter-spacing: 1px;
     }
+
+    @media screen and (max-width:1023px) {
+        h1.script  {
+        
+            font-size: 1.2rem;
+        
+            }
+        }
 
 h3.script {
 font-family:'Montserrat', sans-serif;
@@ -6515,6 +6537,12 @@ print {
     padding: 2.5rem
 }
 
+@media screen and (max-width:768px) {
+    .card-content {
+        padding: 1.5rem
+    }
+}
+
 .card-footer {
     background-color: transparent;
     border-top: 1px solid #ededed;
@@ -12043,9 +12071,15 @@ span.marker:hover {
 }
 
 
+.br-space {
+    margin-top: 9rem;
+}
 
-
-
+@media screen and (max-width: 768px) {
+	.br-space {
+        margin-top: 2rem;
+    }
+}
 
 /*---------- 11. FOOTER STYLES ----------*/
 footer {
