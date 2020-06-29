@@ -1848,6 +1848,13 @@ print {
 	height: 500px;
 }
 
+@media screen and (max-width: 768px) {
+	.box {
+		height: 500px;
+	}
+}
+
+
 a.box:hover,
 a.box:focus {
 	box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px #3273dc;
