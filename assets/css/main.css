@@ -1845,6 +1845,7 @@ print {
 	color: #141c3a;
 	display: block;
 	padding: 1.25rem;
+	height: 500px;
 }
 
 a.box:hover,
